@@ -120,7 +120,7 @@ export function SideBar(props: { className?: string }) {
           ChatGPT MAX
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          <a href="http://aishop.wiki/buy/5" target="_blank">点此购买国内版GPT4 开启联网、读链接等插件</a>
+          <a href="https://useplus.live">本站域名更换，点此前往新版本地址</a>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
