@@ -4,9 +4,9 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      `哈喽，您的访问密码为空或不正确！前往公众号 **[AI产品万花筒](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MjM5NzU3OTk3OQ==)** 回复 **密码** 免费获取访问密码，然后左下角[设置](/#/settings)中输入即用。
+      `你好，本站GPT服务已停止，请前往 **新版本** 使用。前往公众号 **[AI产品万花筒](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MjM5NzU3OTk3OQ==)** 回复 **新版本** 获取地址。
       
-  GPTMAX **稳定运行半年**，使用 **无次数限制**，**ctrl+D**收藏本站，随时调用，**无需魔法**，内置5万刀KEY支持极速高并发，稳定流畅
+  新版本支持GPT4、claude-2-100k等高级模型，支持聊天窗口直接读取URL链接，随时调用，**无需魔法**
   
   超级教程及常见问题点击 **[天花板级AI教程及资源](https://px65g7v9unl.feishu.cn/docx/D5ARdNBlBoHPt5xTFadcfOcHnOd)**`,
   },
