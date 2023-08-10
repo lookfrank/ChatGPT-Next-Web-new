@@ -437,9 +437,9 @@ export function ImagePreviewer(props: {
           </div>
 
           <div>
-            <div className={styles["main-title"]}>ChatGPT MAX</div>
+            <div className={styles["main-title"]}>小帮AI MAX</div>
             <div className={styles["sub-title"]}>
-              http://aishop.wiki
+              https://www.gptplus.wiki
             </div>
             <div className={styles["icons"]}>
               <ExportAvatar avatar={config.avatar} />
