@@ -6,7 +6,7 @@ const cn = {
     Unauthorized:
       `你好，欢迎使用 **小帮AI** ，稳定运行半年，流畅好用，**CTRL+D** 收藏本站不迷路。
       
-  免费获取访问密码，请前往公众号 **[小帮AI](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAxNDk3MDQ5MA==)** 回复 **密码** 获取，然后左下角[设置](/#/settings)中输入。
+  免费获取访问密码，请前往公众号 **![小帮AI](/小帮AI二维码.jpg)**  回复 **密码** 获取，然后左下角[设置](/#/settings)中输入。
       
   本站支持3.5以及3.5-16k。超级教程及常见问题点击 **[天花板级AI教程及资源](https://px65g7v9unl.feishu.cn/wiki/space/7253461296048472068?ccm_open_type=lark_wiki_spaceLink)**
   
@@ -229,7 +229,7 @@ const cn = {
     DefaultTopic: "新的聊天",
     BotHello: `欢迎 **开始使用**
     
-  小帮AI **稳定运行近半年**，**ctrl+D**收藏本站，手机/电脑随时调用，**无需魔法**，内置5万刀KEY支持极速高并发
+  小帮AI **稳定运行近半年**，**ctrl+D**收藏本站，手机/电脑随时调用，**无需魔法**，内置5万刀KEY支持极速高并发，密码更新请前往公众号 **小帮AI(https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAxNDk3MDQ5MA==)**
   
   **提问：** 遇到困难怎么办？
   **回答：** 好的呀，遇到困难，就睡大觉
