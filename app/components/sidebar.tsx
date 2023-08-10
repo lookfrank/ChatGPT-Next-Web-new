@@ -120,7 +120,7 @@ export function SideBar(props: { className?: string }) {
           小帮 AI 
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          <a href="http://aishop.wiki" target="_blank" style="text-decoration: none;">需要联网/读PDF/GPT4账号 点此进入</a>
+          <a href="http://aishop.wiki" target="_blank" style={{ textDecoration: "none" }}>需要联网/读PDF/GPT4账号 点此进入</a>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
