@@ -4,11 +4,14 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      `你好，本站GPT服务已停止，请前往 **新版本** 使用。前往公众号 **[AI产品万花筒](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MjM5NzU3OTk3OQ==)** 回复 **新版本** 获取地址。
+      `你好，欢迎使用 **小帮AI** ，稳定运行半年，流畅好用，**CTRL+D** 收藏本站不迷路。
       
-  新版本支持GPT4、claude-2-100k等高级模型，支持聊天窗口直接读取URL链接，随时调用，**无需魔法**
+  免费获取访问密码，请前往公众号 **[小帮AI](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAxNDk3MDQ5MA==)** 回复 **密码** 获取，然后左下角[设置](/#/settings)中输入。
+      
+  本站支持3.5以及3.5-16k。超级教程及常见问题点击 **[天花板级AI教程及资源](https://px65g7v9unl.feishu.cn/wiki/space/7253461296048472068?ccm_open_type=lark_wiki_spaceLink)**
   
-  超级教程及常见问题点击 **[天花板级AI教程及资源](https://px65g7v9unl.feishu.cn/docx/D5ARdNBlBoHPt5xTFadcfOcHnOd)**`,
+  回答不满意or数据太旧or读pdf读链接？您需要成为尊贵的PlusGPT4会员 **[点这里获得PLUS账号](http://aishop.wiki/)**`,
+
   },
   Auth: {
     Title: "需要密码",
@@ -224,14 +227,14 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: `欢迎 **开始使用**，GPTMAX **稳定运行近半年**，**ctrl+D**收藏本站，随时调用，**无需魔法**，内置5万刀KEY支持极速高并发
-  
-  若无密码可前往公众号 **[AI产品万花筒](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MjM5NzU3OTk3OQ==)** 回复 **密码** 免费获取密码，然后左下角[设置](/#/settings)中输入即用。
+    BotHello: `欢迎 **开始使用**
+    
+  小帮AI **稳定运行近半年**，**ctrl+D**收藏本站，手机/电脑随时调用，**无需魔法**，内置5万刀KEY支持极速高并发
   
   **提问：** 遇到困难怎么办？
   **回答：** 好的呀，遇到困难，就睡大觉
   
-  超级教程及常见问题点击 **[天花板级AI教程及资源](https://px65g7v9unl.feishu.cn/docx/D5ARdNBlBoHPt5xTFadcfOcHnOd)**
+  超级教程及常见问题点击 **[天花板级AI教程及资源](https://px65g7v9unl.feishu.cn/wiki/space/7253461296048472068?ccm_open_type=lark_wiki_spaceLink)**
                                 
   回答不满意or数据太旧or读pdf读链接？您需要成为尊贵的PlusGPT4会员 **[点这里获得PLUS账号](http://aishop.wiki/)**`,
     Error: "出错了，稍后重试吧",
