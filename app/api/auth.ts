@@ -42,7 +42,7 @@ export function auth(req: NextRequest) {
   if (serverConfig.needCode && !serverConfig.codes.has(hashedCode) && !token) {
     return {
       error: true,
-      msg: !accessCode ? "empty access code" : "wrong access code",
+      msg: !accessCode ? "访问密码为空，请前往小帮AI（公众号）获取密码" : "访问密码不正确，请前往小帮AI（公众号）获取密码",
     };
   }
 
