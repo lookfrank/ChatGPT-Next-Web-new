@@ -122,6 +122,10 @@ export const ALL_MODELS = [
     available: true,
   },
   {
+    name: "文档GPT", // 文档GPT
+    available: true,
+  },
+  {
     name: "URL读取", // 读URL
     available: true,
   },
