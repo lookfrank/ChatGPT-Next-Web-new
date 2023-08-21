@@ -584,6 +584,32 @@ export function Chat() {
     if (!isMobileScreen) inputRef.current?.focus();
     setAutoScroll(true);
   };
+  const handleUploadClick = async () => {
+    const fileInput = document.createElement('input');
+    fileInput.type = 'file';
+    fileInput.accept = '.pdf';
+    fileInput.onchange = async (event) => {
+        const inputElement = event.target as HTMLInputElement;
+        const file = inputElement.files ? inputElement.files[0] : null;
+        if (file) {
+            const formData = new FormData();
+            formData.append('file', file);
+            
+            try {
+                const response = await fetch('http://107.173.255.247:3001/upload-endpoint', {
+                    method: 'POST',
+                    body: formData,
+                });
+
+                const data = await response.json();
+                console.log(data); // Process server response here
+            } catch (error) {
+                console.error("Error uploading the file:", error);
+            }
+        }
+    };
+    fileInput.click();
+  };
 
   const onPromptSelect = (prompt: Prompt) => {
     setTimeout(() => {
@@ -1018,6 +1044,12 @@ export function Chat() {
             style={{
               fontSize: config.fontSize,
             }}
+          />
+          <IconButton
+            icon={<SendWhiteIcon />}  // Assume you have an UploadIcon, or you can use any other appropriate icon component
+            text="上传"
+            className={styles["chat-input-upload"]}
+            onClick={handleUploadClick}
           />
           <IconButton
             icon={<SendWhiteIcon />}
