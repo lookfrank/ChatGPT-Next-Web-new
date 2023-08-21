@@ -596,7 +596,7 @@ export function Chat() {
             formData.append('file', file);
             
             try {
-                const response = await fetch('http://107.173.255.247:3007/upload-endpoint', {
+                const response = await fetch('https://pdf.gptplus.wiki/upload-endpoint', {
                     method: 'POST',
                     body: formData,
                 });
