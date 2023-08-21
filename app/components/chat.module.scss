@@ -426,14 +426,35 @@
   border: 1px solid var(--primary);
 }
 
-.chat-input-send {
-  background-color: var(--primary);
+
+.chat-input-upload {
+  background-color: rgb(223, 73, 73);
   color: white;
+  width: 80px;        /* 设置宽度 */
+  height: 30px;       /* 设置高度 */
+  font-size: 14px;    /* 设置字体大小 */
+  line-height: 40px;  /* 确保文字垂直居中 */
+  text-align: center; /* 确保文字水平居中 */
 
   position: absolute;
   right: 30px;
-  bottom: 32px;
+  bottom: 60px;  /* Adjust this value so the "Upload" button is above the "Send" button */
 }
+
+.chat-input-send {
+  background-color: var(--primary);
+  color: white;
+  width: 80px;        /* 设置宽度 */
+  height: 30px;       /* 设置高度 */
+  font-size: 14px;    /* 设置字体大小 */
+  line-height: 40px;  /* 确保文字垂直居中 */
+  text-align: center; /* 确保文字水平居中 */
+
+  position: absolute;
+  right: 30px;
+  bottom: 23px;
+}
+
 
 @media only screen and (max-width: 600px) {
   .chat-input {
