@@ -584,31 +584,33 @@ export function Chat() {
     if (!isMobileScreen) inputRef.current?.focus();
     setAutoScroll(true);
   };
+  
   const handleUploadClick = async () => {
-    const fileInput = document.createElement('input');
-    fileInput.type = 'file';
-    fileInput.accept = '.pdf';
-    fileInput.onchange = async (event) => {
-        const inputElement = event.target as HTMLInputElement;
-        const file = inputElement.files ? inputElement.files[0] : null;
-        if (file) {
-            const formData = new FormData();
-            formData.append('file', file);
-            
-            try {
-                const response = await fetch('https://pdf.gptplus.wiki/upload-endpoint', {
-                    method: 'POST',
-                    body: formData,
-                });
-
-                const data = await response.json();
-                console.log(data); // Process server response here
-            } catch (error) {
-                console.error("Error uploading the file:", error);
-            }
-        }
-    };
-    fileInput.click();
+      const fileInput = document.createElement('input');
+      fileInput.type = 'file';
+      fileInput.accept = '.pdf';
+      fileInput.onchange = async (event) => {
+          const inputElement = event.target as HTMLInputElement;
+          const file = inputElement.files ? inputElement.files[0] : null;
+          if (file) {
+              const formData = new FormData();
+              formData.append('file', file);
+              
+              try {
+                  const response = await fetch('https://pdf.gptplus.wiki/upload-endpoint', {
+                      method: 'POST',
+                      body: formData,
+                  });
+  
+                  const data = await response.json();
+                  alert(data.message); // 使用alert()显示消息
+  
+              } catch (error) {
+                  console.error("Error uploading the file:", error);
+              }
+          }
+      };
+      fileInput.click();
   };
 
   const onPromptSelect = (prompt: Prompt) => {
