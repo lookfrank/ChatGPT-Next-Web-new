@@ -97,7 +97,7 @@ export const ALL_MODELS = [
   */
   {
     name: "gpt-3.5-turbo-16k",
-    available: true,
+    available: false,
   },
   /*
   {
