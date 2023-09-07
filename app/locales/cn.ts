@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      `你好，欢迎使用 **小帮AI** ，稳定运行半年，流畅好用，**CTRL+D** 收藏本站不迷路。
+      `你好，欢迎使用 **小帮AI** ，支持gpt-3.5和gpt-4.0模型，稳定运行半年，流畅好用，**CTRL+D** 收藏本站不迷路。
       
   免费获取访问密码，请添加V: **xuewangke2017**  回复 **密码** 获取，然后左下角[设置](/#/settings)中输入。
       
@@ -229,7 +229,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: `欢迎 **开始使用**，本站支持gpt-3.5-turbo模型
+    BotHello: `欢迎 **开始使用**，本站支持gpt-3.5-turbo模型和4.0模型
     
   **稳定运行近半年**，**ctrl+D**收藏本站，手机/电脑随时调用，**无需魔法**，内置5万刀KEY支持极速高并发，密码更新请前往公众号 **[小帮AI](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAxNDk3MDQ5MA==)**
 
