@@ -42,7 +42,7 @@ export function auth(req: NextRequest) {
   if (serverConfig.needCode && !serverConfig.codes.has(hashedCode) && !token) {
     return {
       error: true,
-      msg: !accessCode ? "访问密码为空，请前往小帮AI（公众号）获取密码" : "访问密码不正确，请前往小帮AI（公众号）获取密码",
+      msg: !accessCode ? "访问密码为空，请前往小帮AI（公众号）获取密码" : "免费版使用人数过多，系统停机维护中；如需继续使用，请前往会员版 [万花筒AI](https://useplus.live)，可稳定流畅使用",
     };
   }
 
